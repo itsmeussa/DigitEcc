@@ -1,0 +1,204 @@
+html{
+    background: url("../../Images/arri.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 1400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.logocent{
+    width: 80px;
+}
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 9pc;
+}
+.btn:hover {   
+  opacity: 0.7;   
+} 
+.btn{
+    opacity:10%;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    color:red;
+    margin-top: 40px;
+    background-color:  #04AA6D; 
+    border: none;   
+    box-sizing: border-box;   
+}
+.description{
+    font-size: small;
+    color: white ;
+}
+#didi{
+    color: white;
+}
+
+
+img {
+width: 25px;
+border-radius: 0px;
+float: left;
+}
+
+.logout {
+font-size: .8em;
+font-family: 'Oswald', sans-serif;
+position: relative;
+right: -18px;
+bottom: -4px;
+overflow: hidden;
+letter-spacing: 3px;
+opacity: 0;
+}
+
+
+.button {
+text-decoration: none;
+float: right;
+padding: 12px;
+margin: 15px;
+color: white;
+width: 25px;
+background-color: #37322F;
+transition: width .35s;
+-webkit-transition: width .35s;
+overflow: hidden
+}
+
+
+a:hover {
+width: 100px;
+}
+
+a:hover .logout{
+opacity: .9;
+}
+
+a {
+text-decoration: none;
+}
+#Fonction{
+    padding: 12px;
+    margin-top: 20px;
+    border: black;
+    
+}
+#button:hover {   
+  opacity: 0.7;   
+} 
+#button{
+    cursor: pointer;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2%;
+    margin-top: 10px;
+    background-color:  #04AA6D; 
+    border: none;   
+    box-sizing: border-box;   
+}
+
+th{
+    background-color: #37322F;
+    border-radius: 100px;
+    box-shadow: rgba(255, 255, 255, .2) 0 -25px 18px -14px inset,rgba(255, 255, 255, .15) 0 1px 2px,rgba(255, 255, 255, .15) 0 2px 4px,rgba(255, 255, 255, .15) 0 4px 8px,rgba(255, 255, 255, .15) 0 8px 16px,rgba(255, 255, 255, .15) 0 16px 32px;
+    color: WHITE;
+    cursor: pointer;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    padding:auto;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-collapse: collapse;
+    margin: 10px;
+}
+table {
+    opacity:90%;
+    border-spacing: 5px;
+}
+
+th:hover {
+box-shadow: rgba(255, 255, 255,.35) 0 -25px 18px -14px inset,rgba(255, 255, 255,.25) 0 1px 2px,rgba(255, 255, 255,.25) 0 2px 4px,rgba(255, 255, 255,.25) 0 4px 8px,rgba(255, 255, 255,.25) 0 8px 16px,rgba(255, 255, 255,.25) 0 16px 32px;
+transform: scale(1.05) rotate(-1deg);
+}
+table{
+    border: #062B3D;
+}
+.btn:hover {   
+  opacity: 0.7;   
+} 
+.btn{
+    cursor: pointer;
+    
+}
+.Fonction{
+    width: 300px;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid gray;   
+    box-sizing: border-box;   
+}
+#cont{
+    display: none;
+}
+#non{
+    display:none;
+}
+#oui{
+    display:none;
+}
+#ouimais{
+    display:none;
+}
+input{
+    padding: 0%;
+    width: 10px;
+    background-color: #04AA6D;
+    border: none;
+}
+table{
+    margin:4px;
+}
+.btn {
+width: calc(25px - 6px);
+height: calc(25px - 6px);
+padding:3px;
+border-radius: 50%;
+margin-left:auto; margin-right:auto;margin-top: auto;
+background-color: #fff;
+}
+
+.ahh {
+    cursor: pointer;
+    font-family:fantasy;
+    font-size: 17px;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: WHITE   ;
+    font-size: large;
+    padding: 20px;
+    
+    background-color:  #04AA6D; 
+    border: none;   
+}
+tr{
+    margin:100px;
+}
+
+.ahh:hover {
+opacity:0.7;
+}

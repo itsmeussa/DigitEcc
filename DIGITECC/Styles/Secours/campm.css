@@ -1,0 +1,134 @@
+html{
+    background: url("../../Images/arri.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.Fonction{
+    width: 300px;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid gray;
+    box-sizing: border-box;   
+    border-radius: 20px;
+}
+
+.logocent{
+    width: 80px;
+    border-color: black;
+}
+h1{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+.lab{
+    border-radius: 20px;
+    width: 300px;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid gray;   
+    box-sizing: border-box;
+}
+.sh{
+    color:aliceblue
+}
+#btn:hover {   
+  opacity: 0.7;   
+} 
+#btn{
+
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    background-color:  #04AA6D; 
+    border: none;   
+    margin-left: 10px;
+    box-sizing: border-box;   
+    border-radius: 20px;
+    cursor: pointer;
+    }
+.login{
+    background-color: #062B3D;
+    border-radius: 100PX;
+    width: 400px;
+    height: auto;
+}
+.logocent{
+    width: 80px;
+}
+
+
+.description{
+    font-size: small;
+    color: white ;
+}
+
+
+
+.logout {
+font-size: .8em;
+font-family: 'Oswald', sans-serif;
+position: relative;
+right: -18px;
+bottom: -4px;
+overflow: hidden;
+letter-spacing: 3px;
+opacity: 0;
+}
+.navigation {
+width: 100%;
+background-color: #04AA6D;
+}
+
+.anyy {
+width: 25px;
+border-radius: 0px;
+float: left;
+}
+
+.logout {
+font-size: .8em;
+font-family: 'Oswald', sans-serif;
+position: relative;
+right: -18px;
+bottom: -4px;
+overflow: hidden;
+letter-spacing: 3px;
+opacity: 0;
+transition: opacity .45s;
+-webkit-transition: opacity .35s;
+
+}
+
+
+.haha {
+text-decoration: none;
+float: right;
+padding: 12px;
+margin: 15px;
+color: white;
+width: 25px;
+background-color: #062B3D;
+transition: width .35s;
+-webkit-transition: width .35s;
+overflow: hidden
+}
+
+a:hover {
+width: 100px;
+}
+
+a:hover .logout{
+opacity: .9;
+}
+
+a {
+text-decoration: none;
+}
