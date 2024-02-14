@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECC COMMUNITY</title>
+    <link rel="stylesheet" href="../Styles/accueil.css">
+</head>
+<body>
+
+    <center>
+    <div class="navigation">
+        <a class="button" href="../Php/logout.php">
+          <img src="../Images/logo.png">
+      <div class="logout">LOGOUT</div>
+        </a>
+    </div>
+    <div class="Accueil" >
+    <div id="res" class="tabcontent">
+        <h1>Réservation</h1>
+        <p>Ce que vous voulez réserver :</p>
+        <button class="btn" onclick="window.location.href='../Php/Reservations/salles.php';">Salles</button>
+        <button class="btn" onclick="window.location.href='../Php/Reservations/laverie.php';">Laverie</button>
+        <button class="btn" onclick="window.location.href='../Php/Reservations/omni.php';">Omnisport</button>
+        <button class="btn" onclick="window.location.href='../Php/Reservations/gym.php';">Gym</button>
+      </div>
+      
+      <div id="rec" class="tabcontent">
+        <h1>Réclamation</h1>
+        <p>Ce que vous voulez réclamer :</p><br></br>
+        <button class="btn" onclick="window.location.href='../Php/Reclamation/obj.php';">Vérifier</button>
+        <button class="btn" onclick="window.location.href='../Php/Reclamation/obj2.php';">Déclarer</button>
+        <button class="btn" onclick="window.location.href='../Php/Reclamation/prob.php';">Probléme</button>
+        <button class="btn" onclick="window.location.href='../Php/Reclamation/dem.php';">Demande</button>
+      </div>
+      
+      <div id="new" class="tabcontent">
+        <h1>Newrest</h1>
+        <p>Des informations sur Newrest : (Compte Newrest actuellement en cours de développement )</p><br></br>
+        <button class="btn" onclick="window.location.href='../Php/Newrest/menu.php';">Menu du jour</button>
+        <button class="btn" onclick="">Compte Newrest</button>
+        <button class="btn" onclick="window.location.href='../Php/Newrest/recnew.php';">Réclamation</button>
+      </div>
+      
+      <div id="sec" class="tabcontent">
+        <h1>Secours</h1>
+        <p>Quelque contact de sécours :</p><br></br>
+        <button class="btn" onclick="window.location.href='../Php/Secours/infermerie.php';">Infirmiére</button>
+        <button class="btn" onclick="window.location.href='../Php/Secours/campm.php';">Campus Manager</button>
+        <button class="btn" onclick="window.location.href='../Php/Secours/Sécurité.php';">Sécurité</button>
+      </div>
+      
+      <button  class="tablink" id="rees" onclick="opentype('res', this, '#04AA6D')" id="defaultOpen"><img src="../Images/reservation.png">Réservation</button>
+      <button class="tablink" id="ree" onclick="opentype('rec', this, '#04AA6D')"><img src="../Images/reclamation.png">Réclamation</button>
+      <button class="tablink" id="noo" onclick="opentype('new', this, '#04AA6D')"><img src="../Images/newrest.png">Newrest</button>
+      <button class="tablink" id="seec" onclick="opentype('sec', this, '#04AA6D')"><img src="../Images/urgence.png">Secours</button><br>
+
+    </div>
+    <script type="text/javascript" src="../Script/accueil.js"></script>
+  </center>
+
+</body>
+</html>

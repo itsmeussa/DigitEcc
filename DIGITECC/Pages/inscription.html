@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECC COMMUNITY</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../Styles/inscription.css">
+    <form action="../Php/inscription.php" method="post">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+        <div class="bkk">
+            <br>
+            <img class="logocent" src="../Images/logob.png" >
+            <br>
+        <h1>Inscription</h1>
+            <div>Aprés avoir cliquer sur login vérifier votre email pour avoir votre code d'accés.</div>
+            <select  id="Fonction" class="Fonction" name="fonction" >
+                <option value="Etudiant">Etudiant</option>
+                <option value="Association">Association</option>
+                <option value="Personnel">Personnel</option>
+                <option value="Navette">Resp. Navette</option>
+                <option value="Newrest">Resp. Newrest</option>
+                <option value="Bureaux">Bureaux</option>
+                <option value="Campus Manager">Campus Manager</option>
+                <option value="Infermiére">Infermiére</option>
+            </select><br><br>
+            <input type="checkbox" id="sh" onclick="showpass()" required>
+            <label class="sh" >Continue</label></br><br>
+            <div id="all">
+            <input type="text" class="inputs" name="nom" placeholder="Nom" required><br>
+            <input type="text" class="inputs" name="prenom" placeholder="Prénom" required><br>
+            <input type="email" class="inputs" name="email" placeholder="Email" required><br>
+            <input type="text" class="inputs" name="num" placeholder="Numéro de téléphone" required><br>
+            </div>
+            <div id="Etudiant" class="ff">
+            <input type="text" class="inputs" name="identifiant" placeholder="Identifiant ECC"><br>
+            </div>
+            <div id="Association" class="ff">
+                <select name="assos" id="chh" class="inputs" >
+                    <option value="" disabled selected>Type d'association</option>
+                    <option value="ECC Entreprise">ECC Entreprise</option>
+                    <option value="Centrale Tech">Centrale Tech</option>
+                    <option value="JECC">JECC</option>
+                    <option value="Centrale Aero">Centrale Aero</option>
+                    <option value="Centrale Finance Society">Centrale Finance Society</option>
+                    <option value="Centrale Mun">Centrale Mun</option>
+                    <option value="Enactus">Enactus</option>
+                    <option value="Rotaract">Rotaract</option>
+                    </select><br>
+            </div>
+            <div id="Personnel" class="ff">
+                <input name="pers_ass" type="text" class="inputs" placeholder="Fonction"><br>
+            </div>
+            <div id="Navette" class="ff">
+
+            </div>
+            <div id="Newrest" class="ff">
+
+            </div>
+            <div id="Bureaux" class="ff">
+                <input name="bdx_fct" type="text" class="inputs" placeholder="Fonction"><br>
+                <select name="bureau" id="chh" class="inputs" >
+                    <option value="" disabled selected>Type de bureau</option>
+                    <option value="BDE">Bureau d'étudiant</option>
+                    <option value="BDS">Bureau de sports</option>
+                    <option value="BDA">Bureau des arts</option>
+                    </select><br>
+            </div>
+            <div id="Campus Manager" class="ff">
+
+            </div>
+            <div id="Infermiére" class="ff">
+
+            </div>
+        
+        <input id="button" type="submit" value="Login" >
+        <input type ="button" id="button" style="background-color: gray;" value="Annuler" onclick="window.location.href='../index.html';">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    </form>
+    </center>
+    <script type="text/javascript" src="../Script/inscription.js"></script>
+</body>
+</html>

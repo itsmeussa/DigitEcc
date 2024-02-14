@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECC COMMUNITY</title>
+    <link rel="stylesheet" href="../Styles/login.css">
+
+</head>
+<body>
+
+    <form action="../Php/login.php" method="post">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <div class="login">
+                <br>
+                <img class="logocent" src="../Images/logob.png" >
+                <br>
+        <h1>Login</h1>
+            <select  id="Fonction" class="Fonction" name="Fonction" >
+                <option value="Etudiant">Etudiant</option>
+                <option value="Association">Association</option>
+                <option value="Personnel">Personnel</option>
+                <option value="Navette">Resp. Navette</option>
+                <option value="Newrest">Resp. Newrest</option>
+                <option value="Bureaux">Bureaux</option>
+                <option value="Campus Manager">Campus Manager</option>
+                <option value="Infer">Infermiére</option>
+            </select><br>
+        <input type="text" class="lab" placeholder="Email" name="Email"><br>
+        <input type="password" class="lab"id="pwd" placeholder="Mot de passe" name="Password"><br>
+        <input type="checkbox" id="sh" onclick="showpass()">
+        <label class="sh">Show password</label></br>
+        <br>
+        <input type ="submit" id="btn" value="Suivant" onclick="window.location.href='../Php/accueil.php';">
+        <input type ="button" id="btn" style="background-color: gray;" value="Annuler" onclick="window.location.href='../index.html';">
+            </div></center>
+    </form>
+    <script type="text/javascript" src="../Script/login.js"></script>
+
+</body>
+</html>
